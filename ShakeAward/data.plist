@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>userName</key>
+	<string>zhao</string>
+	<key>password</key>
+	<string>zhao</string>
+	<key>flag</key>
+	<string>0</string>
+	<key>AwardImages</key>
+	<array>
+		<string>1.jpg</string>
+		<string>2.jpg</string>
+		<string>3.jpg</string>
+		<string>4.jpg</string>
+		<string>5.jpg</string>
+		<string>6.jpg</string>
+		<string>7.jpg</string>
+		<string>8.jpg</string>
+		<string>9.jpg</string>
+		<string>10.jpg</string>
+	</array>
+</dict>
+</plist>

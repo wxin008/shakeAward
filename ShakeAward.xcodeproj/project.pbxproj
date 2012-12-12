@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BAF03A1671973900CE42C7 /* SocketUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BAF0391671973800CE42C7 /* SocketUtils.m */; };
+		01BAF03E1671D23000CE42C7 /* MemberShakeAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BAF03C1671D22E00CE42C7 /* MemberShakeAwardViewController.m */; };
+		01BAF03F1671D23000CE42C7 /* MemberShakeAwardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BAF03D1671D23000CE42C7 /* MemberShakeAwardViewController.xib */; };
+		01BEBE2916688630001249CD /* AddAwardGradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE2716688630001249CD /* AddAwardGradeViewController.m */; };
+		01BEBE2A16688630001249CD /* AddAwardGradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BEBE2816688630001249CD /* AddAwardGradeViewController.xib */; };
+		01BEBE2F16688688001249CD /* ShowAwardGradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE2D16688688001249CD /* ShowAwardGradeViewController.m */; };
+		01BEBE3016688688001249CD /* ShowAwardGradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BEBE2E16688688001249CD /* ShowAwardGradeViewController.xib */; };
+		01BEBE3416689408001249CD /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE3216689408001249CD /* HelpViewController.m */; };
+		01BEBE3516689408001249CD /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BEBE3316689408001249CD /* HelpViewController.xib */; };
+		01BEBE4B1668AFAA001249CD /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE4A1668AFA9001249CD /* Constant.m */; };
+		01BEBE9D1668C8CD001249CD /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE851668C8CD001249CD /* NSObject+SBJson.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBE9E1668C8CD001249CD /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE851668C8CD001249CD /* NSObject+SBJson.m */; };
+		01BEBE9F1668C8CD001249CD /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE881668C8CD001249CD /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEA01668C8CD001249CD /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE881668C8CD001249CD /* SBJsonParser.m */; };
+		01BEBEA11668C8CD001249CD /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE8A1668C8CD001249CD /* SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEA21668C8CD001249CD /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE8A1668C8CD001249CD /* SBJsonStreamParser.m */; };
+		01BEBEA31668C8CD001249CD /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE8C1668C8CD001249CD /* SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEA41668C8CD001249CD /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE8C1668C8CD001249CD /* SBJsonStreamParserAccumulator.m */; };
+		01BEBEA51668C8CD001249CD /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE8E1668C8CD001249CD /* SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEA61668C8CD001249CD /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE8E1668C8CD001249CD /* SBJsonStreamParserAdapter.m */; };
+		01BEBEA71668C8CD001249CD /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE901668C8CD001249CD /* SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEA81668C8CD001249CD /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE901668C8CD001249CD /* SBJsonStreamParserState.m */; };
+		01BEBEA91668C8CD001249CD /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE921668C8CD001249CD /* SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEAA1668C8CD001249CD /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE921668C8CD001249CD /* SBJsonStreamWriter.m */; };
+		01BEBEAB1668C8CD001249CD /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE941668C8CD001249CD /* SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEAC1668C8CD001249CD /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE941668C8CD001249CD /* SBJsonStreamWriterAccumulator.m */; };
+		01BEBEAD1668C8CD001249CD /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE961668C8CD001249CD /* SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEAE1668C8CD001249CD /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE961668C8CD001249CD /* SBJsonStreamWriterState.m */; };
+		01BEBEAF1668C8CD001249CD /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE981668C8CD001249CD /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEB01668C8CD001249CD /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE981668C8CD001249CD /* SBJsonTokeniser.m */; };
+		01BEBEB11668C8CD001249CD /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE9A1668C8CD001249CD /* SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEB21668C8CD001249CD /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE9A1668C8CD001249CD /* SBJsonUTF8Stream.m */; };
+		01BEBEB31668C8CD001249CD /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE9C1668C8CD001249CD /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01BEBEB41668C8CD001249CD /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BEBE9C1668C8CD001249CD /* SBJsonWriter.m */; };
+		01C5AF7F1664675100BE2B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5AF7E1664675100BE2B07 /* UIKit.framework */; };
+		01C5AF811664675100BE2B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5AF801664675100BE2B07 /* Foundation.framework */; };
+		01C5AF831664675100BE2B07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5AF821664675100BE2B07 /* CoreGraphics.framework */; };
+		01C5AF891664675100BE2B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AF871664675100BE2B07 /* InfoPlist.strings */; };
+		01C5AF8B1664675100BE2B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AF8A1664675100BE2B07 /* main.m */; };
+		01C5AF8F1664675100BE2B07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AF8E1664675100BE2B07 /* AppDelegate.m */; };
+		01C5AF921664675100BE2B07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AF911664675100BE2B07 /* ViewController.m */; };
+		01C5AF951664675100BE2B07 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AF931664675100BE2B07 /* ViewController.xib */; };
+		01C5AF9D1664675200BE2B07 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5AF9C1664675200BE2B07 /* SenTestingKit.framework */; };
+		01C5AF9E1664675200BE2B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5AF7E1664675100BE2B07 /* UIKit.framework */; };
+		01C5AF9F1664675200BE2B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5AF801664675100BE2B07 /* Foundation.framework */; };
+		01C5AFA71664675200BE2B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFA51664675200BE2B07 /* InfoPlist.strings */; };
+		01C5AFAA1664675200BE2B07 /* ShakeAwardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AFA91664675200BE2B07 /* ShakeAwardTests.m */; };
+		01C5AFB61664707F00BE2B07 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AFB41664707F00BE2B07 /* LoginViewController.m */; };
+		01C5AFB71664707F00BE2B07 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFB51664707F00BE2B07 /* LoginViewController.xib */; };
+		01C5AFC01664711600BE2B07 /* ShakeAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AFBE1664711600BE2B07 /* ShakeAwardViewController.m */; };
+		01C5AFC11664711600BE2B07 /* ShakeAwardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFBF1664711600BE2B07 /* ShakeAwardViewController.xib */; };
+		01C5AFC31664899600BE2B07 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFC21664899600BE2B07 /* data.plist */; };
+		01C5AFD31664957500BE2B07 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFC91664957500BE2B07 /* 1.jpg */; };
+		01C5AFD41664957500BE2B07 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFCA1664957500BE2B07 /* 2.jpg */; };
+		01C5AFD51664957500BE2B07 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFCB1664957500BE2B07 /* 3.jpg */; };
+		01C5AFD61664957500BE2B07 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFCC1664957500BE2B07 /* 4.jpg */; };
+		01C5AFD71664957500BE2B07 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFCD1664957500BE2B07 /* 5.jpg */; };
+		01C5AFD81664957500BE2B07 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFCE1664957500BE2B07 /* 6.jpg */; };
+		01C5AFD91664957500BE2B07 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFCF1664957500BE2B07 /* 7.jpg */; };
+		01C5AFDA1664957500BE2B07 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFD01664957500BE2B07 /* 8.jpg */; };
+		01C5AFDB1664957500BE2B07 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFD11664957500BE2B07 /* 9.jpg */; };
+		01C5AFDC1664957500BE2B07 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFD21664957500BE2B07 /* 10.jpg */; };
+		01C5AFF01664A11800BE2B07 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AFEE1664A11700BE2B07 /* UsersViewController.m */; };
+		01C5AFF11664A11800BE2B07 /* UsersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFEF1664A11800BE2B07 /* UsersViewController.xib */; };
+		01C5AFF51664A60100BE2B07 /* DataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5AFF41664A60100BE2B07 /* DataUtils.m */; };
+		01C5AFFB1664AD6000BE2B07 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01C5AFFA1664AD6000BE2B07 /* 0.jpg */; };
+		01C5B066166611E300BE2B07 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B05F166611E300BE2B07 /* base64.c */; };
+		01C5B067166611E300BE2B07 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B05F166611E300BE2B07 /* base64.c */; };
+		01C5B068166611E300BE2B07 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B062166611E300BE2B07 /* NSData+SRB64Additions.m */; };
+		01C5B069166611E300BE2B07 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B062166611E300BE2B07 /* NSData+SRB64Additions.m */; };
+		01C5B06A166611E300BE2B07 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B065166611E300BE2B07 /* SRWebSocket.m */; };
+		01C5B06B166611E300BE2B07 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B065166611E300BE2B07 /* SRWebSocket.m */; };
+		01C5B06D1666120900BE2B07 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5B06C1666120900BE2B07 /* MobileCoreServices.framework */; };
+		01C5B06F1666121500BE2B07 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5B06E1666121400BE2B07 /* Security.framework */; };
+		01C5B0711666121D00BE2B07 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5B0701666121D00BE2B07 /* CFNetwork.framework */; };
+		01C5B0731666123400BE2B07 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C5B0721666123400BE2B07 /* libicucore.dylib */; };
+		01C5B079166739C600BE2B07 /* SettingAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B077166739C600BE2B07 /* SettingAwardViewController.m */; };
+		01C5B07A166739C600BE2B07 /* SettingAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B077166739C600BE2B07 /* SettingAwardViewController.m */; };
+		01C5B07B166739C600BE2B07 /* SettingAwardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B078166739C600BE2B07 /* SettingAwardViewController.xib */; };
+		01C5B07C166739C600BE2B07 /* SettingAwardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B078166739C600BE2B07 /* SettingAwardViewController.xib */; };
+		01C5B08016673A9A00BE2B07 /* FTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B07E16673A9A00BE2B07 /* FTPViewController.m */; };
+		01C5B08116673A9A00BE2B07 /* FTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B07E16673A9A00BE2B07 /* FTPViewController.m */; };
+		01C5B08216673A9A00BE2B07 /* FTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B07F16673A9A00BE2B07 /* FTPViewController.xib */; };
+		01C5B08316673A9A00BE2B07 /* FTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B07F16673A9A00BE2B07 /* FTPViewController.xib */; };
+		01C5B08716673C9800BE2B07 /* UploadImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B08516673C9700BE2B07 /* UploadImgViewController.m */; };
+		01C5B08816673C9800BE2B07 /* UploadImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B08516673C9700BE2B07 /* UploadImgViewController.m */; };
+		01C5B08916673C9800BE2B07 /* UploadImgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B08616673C9800BE2B07 /* UploadImgViewController.xib */; };
+		01C5B08A16673C9800BE2B07 /* UploadImgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B08616673C9800BE2B07 /* UploadImgViewController.xib */; };
+		01C5B08E16674ED100BE2B07 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B08C16674ED000BE2B07 /* RegisterViewController.m */; };
+		01C5B08F16674ED100BE2B07 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C5B08C16674ED000BE2B07 /* RegisterViewController.m */; };
+		01C5B09016674ED100BE2B07 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B08D16674ED100BE2B07 /* RegisterViewController.xib */; };
+		01C5B09116674ED100BE2B07 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C5B08D16674ED100BE2B07 /* RegisterViewController.xib */; };
+		01FDE7A3166C79560014AE5A /* AwardUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FDE7A2166C79560014AE5A /* AwardUser.m */; };
+		01FDE7CF1670A4FF0014AE5A /* RandomUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FDE7CE1670A4FF0014AE5A /* RandomUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C5AFA01664675200BE2B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C5AF711664675100BE2B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C5AF791664675100BE2B07;
+			remoteInfo = ShakeAward;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BAF0381671973800CE42C7 /* SocketUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketUtils.h; sourceTree = "<group>"; };
+		01BAF0391671973800CE42C7 /* SocketUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketUtils.m; sourceTree = "<group>"; };
+		01BAF03B1671D22D00CE42C7 /* MemberShakeAwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberShakeAwardViewController.h; sourceTree = "<group>"; };
+		01BAF03C1671D22E00CE42C7 /* MemberShakeAwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberShakeAwardViewController.m; sourceTree = "<group>"; };
+		01BAF03D1671D23000CE42C7 /* MemberShakeAwardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemberShakeAwardViewController.xib; sourceTree = "<group>"; };
+		01BEBE2616688630001249CD /* AddAwardGradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAwardGradeViewController.h; sourceTree = "<group>"; };
+		01BEBE2716688630001249CD /* AddAwardGradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAwardGradeViewController.m; sourceTree = "<group>"; };
+		01BEBE2816688630001249CD /* AddAwardGradeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAwardGradeViewController.xib; sourceTree = "<group>"; };
+		01BEBE2C16688688001249CD /* ShowAwardGradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAwardGradeViewController.h; sourceTree = "<group>"; };
+		01BEBE2D16688688001249CD /* ShowAwardGradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAwardGradeViewController.m; sourceTree = "<group>"; };
+		01BEBE2E16688688001249CD /* ShowAwardGradeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowAwardGradeViewController.xib; sourceTree = "<group>"; };
+		01BEBE3116689407001249CD /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		01BEBE3216689408001249CD /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		01BEBE3316689408001249CD /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		01BEBE491668AFA9001249CD /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		01BEBE4A1668AFA9001249CD /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		01BEBE831668C8CD001249CD /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		01BEBE841668C8CD001249CD /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		01BEBE851668C8CD001249CD /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		01BEBE861668C8CD001249CD /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		01BEBE871668C8CD001249CD /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		01BEBE881668C8CD001249CD /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		01BEBE891668C8CD001249CD /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		01BEBE8A1668C8CD001249CD /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		01BEBE8B1668C8CD001249CD /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		01BEBE8C1668C8CD001249CD /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		01BEBE8D1668C8CD001249CD /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		01BEBE8E1668C8CD001249CD /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		01BEBE8F1668C8CD001249CD /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		01BEBE901668C8CD001249CD /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		01BEBE911668C8CD001249CD /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		01BEBE921668C8CD001249CD /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		01BEBE931668C8CD001249CD /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		01BEBE941668C8CD001249CD /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		01BEBE951668C8CD001249CD /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		01BEBE961668C8CD001249CD /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		01BEBE971668C8CD001249CD /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		01BEBE981668C8CD001249CD /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		01BEBE991668C8CD001249CD /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		01BEBE9A1668C8CD001249CD /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		01BEBE9B1668C8CD001249CD /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		01BEBE9C1668C8CD001249CD /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		01C5AF7A1664675100BE2B07 /* ShakeAward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C5AF7E1664675100BE2B07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01C5AF801664675100BE2B07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01C5AF821664675100BE2B07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01C5AF861664675100BE2B07 /* ShakeAward-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeAward-Info.plist"; sourceTree = "<group>"; };
+		01C5AF881664675100BE2B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01C5AF8A1664675100BE2B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01C5AF8C1664675100BE2B07 /* ShakeAward-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeAward-Prefix.pch"; sourceTree = "<group>"; };
+		01C5AF8D1664675100BE2B07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01C5AF8E1664675100BE2B07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01C5AF901664675100BE2B07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01C5AF911664675100BE2B07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01C5AF941664675100BE2B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		01C5AF9B1664675200BE2B07 /* ShakeAwardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeAwardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C5AF9C1664675200BE2B07 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		01C5AFA41664675200BE2B07 /* ShakeAwardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeAwardTests-Info.plist"; sourceTree = "<group>"; };
+		01C5AFA61664675200BE2B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01C5AFA81664675200BE2B07 /* ShakeAwardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeAwardTests.h; sourceTree = "<group>"; };
+		01C5AFA91664675200BE2B07 /* ShakeAwardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAwardTests.m; sourceTree = "<group>"; };
+		01C5AFB31664707F00BE2B07 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		01C5AFB41664707F00BE2B07 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		01C5AFB51664707F00BE2B07 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		01C5AFBD1664711600BE2B07 /* ShakeAwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeAwardViewController.h; sourceTree = "<group>"; };
+		01C5AFBE1664711600BE2B07 /* ShakeAwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeAwardViewController.m; sourceTree = "<group>"; };
+		01C5AFBF1664711600BE2B07 /* ShakeAwardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShakeAwardViewController.xib; sourceTree = "<group>"; };
+		01C5AFC21664899600BE2B07 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		01C5AFC91664957500BE2B07 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		01C5AFCA1664957500BE2B07 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		01C5AFCB1664957500BE2B07 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		01C5AFCC1664957500BE2B07 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		01C5AFCD1664957500BE2B07 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		01C5AFCE1664957500BE2B07 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		01C5AFCF1664957500BE2B07 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		01C5AFD01664957500BE2B07 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		01C5AFD11664957500BE2B07 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		01C5AFD21664957500BE2B07 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		01C5AFED1664A11700BE2B07 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		01C5AFEE1664A11700BE2B07 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		01C5AFEF1664A11800BE2B07 /* UsersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersViewController.xib; sourceTree = "<group>"; };
+		01C5AFF31664A60100BE2B07 /* DataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUtils.h; sourceTree = "<group>"; };
+		01C5AFF41664A60100BE2B07 /* DataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtils.m; sourceTree = "<group>"; };
+		01C5AFFA1664AD6000BE2B07 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		01C5B05F166611E300BE2B07 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		01C5B060166611E300BE2B07 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		01C5B061166611E300BE2B07 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		01C5B062166611E300BE2B07 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		01C5B063166611E300BE2B07 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		01C5B064166611E300BE2B07 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		01C5B065166611E300BE2B07 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		01C5B06C1666120900BE2B07 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		01C5B06E1666121400BE2B07 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		01C5B0701666121D00BE2B07 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		01C5B0721666123400BE2B07 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		01C5B076166739C600BE2B07 /* SettingAwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingAwardViewController.h; sourceTree = "<group>"; };
+		01C5B077166739C600BE2B07 /* SettingAwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingAwardViewController.m; sourceTree = "<group>"; };
+		01C5B078166739C600BE2B07 /* SettingAwardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingAwardViewController.xib; sourceTree = "<group>"; };
+		01C5B07D16673A9A00BE2B07 /* FTPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPViewController.h; sourceTree = "<group>"; };
+		01C5B07E16673A9A00BE2B07 /* FTPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPViewController.m; sourceTree = "<group>"; };
+		01C5B07F16673A9A00BE2B07 /* FTPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTPViewController.xib; sourceTree = "<group>"; };
+		01C5B08416673C9700BE2B07 /* UploadImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImgViewController.h; sourceTree = "<group>"; };
+		01C5B08516673C9700BE2B07 /* UploadImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImgViewController.m; sourceTree = "<group>"; };
+		01C5B08616673C9800BE2B07 /* UploadImgViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadImgViewController.xib; sourceTree = "<group>"; };
+		01C5B08B16674ECF00BE2B07 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		01C5B08C16674ED000BE2B07 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		01C5B08D16674ED100BE2B07 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		01FDE7A1166C79560014AE5A /* AwardUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwardUser.h; sourceTree = "<group>"; };
+		01FDE7A2166C79560014AE5A /* AwardUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwardUser.m; sourceTree = "<group>"; };
+		01FDE7CD1670A4FE0014AE5A /* RandomUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomUtils.h; sourceTree = "<group>"; };
+		01FDE7CE1670A4FF0014AE5A /* RandomUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C5AF771664675100BE2B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C5B0731666123400BE2B07 /* libicucore.dylib in Frameworks */,
+				01C5B0711666121D00BE2B07 /* CFNetwork.framework in Frameworks */,
+				01C5B06F1666121500BE2B07 /* Security.framework in Frameworks */,
+				01C5B06D1666120900BE2B07 /* MobileCoreServices.framework in Frameworks */,
+				01C5AF7F1664675100BE2B07 /* UIKit.framework in Frameworks */,
+				01C5AF811664675100BE2B07 /* Foundation.framework in Frameworks */,
+				01C5AF831664675100BE2B07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C5AF971664675200BE2B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C5AF9D1664675200BE2B07 /* SenTestingKit.framework in Frameworks */,
+				01C5AF9E1664675200BE2B07 /* UIKit.framework in Frameworks */,
+				01C5AF9F1664675200BE2B07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BEBE431668A55A001249CD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				01BEBE491668AFA9001249CD /* Constant.h */,
+				01BEBE4A1668AFA9001249CD /* Constant.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		01BEBE501668C629001249CD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				01BEBE831668C8CD001249CD /* JSON.h */,
+				01BEBE841668C8CD001249CD /* NSObject+SBJson.h */,
+				01BEBE851668C8CD001249CD /* NSObject+SBJson.m */,
+				01BEBE861668C8CD001249CD /* SBJson.h */,
+				01BEBE871668C8CD001249CD /* SBJsonParser.h */,
+				01BEBE881668C8CD001249CD /* SBJsonParser.m */,
+				01BEBE891668C8CD001249CD /* SBJsonStreamParser.h */,
+				01BEBE8A1668C8CD001249CD /* SBJsonStreamParser.m */,
+				01BEBE8B1668C8CD001249CD /* SBJsonStreamParserAccumulator.h */,
+				01BEBE8C1668C8CD001249CD /* SBJsonStreamParserAccumulator.m */,
+				01BEBE8D1668C8CD001249CD /* SBJsonStreamParserAdapter.h */,
+				01BEBE8E1668C8CD001249CD /* SBJsonStreamParserAdapter.m */,
+				01BEBE8F1668C8CD001249CD /* SBJsonStreamParserState.h */,
+				01BEBE901668C8CD001249CD /* SBJsonStreamParserState.m */,
+				01BEBE911668C8CD001249CD /* SBJsonStreamWriter.h */,
+				01BEBE921668C8CD001249CD /* SBJsonStreamWriter.m */,
+				01BEBE931668C8CD001249CD /* SBJsonStreamWriterAccumulator.h */,
+				01BEBE941668C8CD001249CD /* SBJsonStreamWriterAccumulator.m */,
+				01BEBE951668C8CD001249CD /* SBJsonStreamWriterState.h */,
+				01BEBE961668C8CD001249CD /* SBJsonStreamWriterState.m */,
+				01BEBE971668C8CD001249CD /* SBJsonTokeniser.h */,
+				01BEBE981668C8CD001249CD /* SBJsonTokeniser.m */,
+				01BEBE991668C8CD001249CD /* SBJsonUTF8Stream.h */,
+				01BEBE9A1668C8CD001249CD /* SBJsonUTF8Stream.m */,
+				01BEBE9B1668C8CD001249CD /* SBJsonWriter.h */,
+				01BEBE9C1668C8CD001249CD /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		01C5AF6F1664675100BE2B07 = {
+			isa = PBXGroup;
+			children = (
+				01C5AF841664675100BE2B07 /* ShakeAward */,
+				01C5AFA21664675200BE2B07 /* ShakeAwardTests */,
+				01C5AF7D1664675100BE2B07 /* Frameworks */,
+				01C5AF7B1664675100BE2B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01C5AF7B1664675100BE2B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AF7A1664675100BE2B07 /* ShakeAward.app */,
+				01C5AF9B1664675200BE2B07 /* ShakeAwardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C5AF7D1664675100BE2B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C5B0721666123400BE2B07 /* libicucore.dylib */,
+				01C5B0701666121D00BE2B07 /* CFNetwork.framework */,
+				01C5B06E1666121400BE2B07 /* Security.framework */,
+				01C5B06C1666120900BE2B07 /* MobileCoreServices.framework */,
+				01C5AF7E1664675100BE2B07 /* UIKit.framework */,
+				01C5AF801664675100BE2B07 /* Foundation.framework */,
+				01C5AF821664675100BE2B07 /* CoreGraphics.framework */,
+				01C5AF9C1664675200BE2B07 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01C5AF841664675100BE2B07 /* ShakeAward */ = {
+			isa = PBXGroup;
+			children = (
+				01FDE79D166C77000014AE5A /* Domain */,
+				01BEBE501668C629001249CD /* JSON */,
+				01BEBE431668A55A001249CD /* Constants */,
+				01C5B0751667392E00BE2B07 /* Manager */,
+				01C5B0741667391300BE2B07 /* User */,
+				01C5B05E166611C000BE2B07 /* SocketRocket */,
+				01C5AFF21664A5B900BE2B07 /* utils */,
+				01C5AFBD1664711600BE2B07 /* ShakeAwardViewController.h */,
+				01C5AFBE1664711600BE2B07 /* ShakeAwardViewController.m */,
+				01C5AFBF1664711600BE2B07 /* ShakeAwardViewController.xib */,
+				01BAF03B1671D22D00CE42C7 /* MemberShakeAwardViewController.h */,
+				01BAF03C1671D22E00CE42C7 /* MemberShakeAwardViewController.m */,
+				01BAF03D1671D23000CE42C7 /* MemberShakeAwardViewController.xib */,
+				01BEBE3116689407001249CD /* HelpViewController.h */,
+				01BEBE3216689408001249CD /* HelpViewController.m */,
+				01BEBE3316689408001249CD /* HelpViewController.xib */,
+				01C5AF8D1664675100BE2B07 /* AppDelegate.h */,
+				01C5AF8E1664675100BE2B07 /* AppDelegate.m */,
+				01C5AF901664675100BE2B07 /* ViewController.h */,
+				01C5AF911664675100BE2B07 /* ViewController.m */,
+				01C5AF931664675100BE2B07 /* ViewController.xib */,
+				01C5AF851664675100BE2B07 /* Supporting Files */,
+			);
+			path = ShakeAward;
+			sourceTree = "<group>";
+		};
+		01C5AF851664675100BE2B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AFC416648FD700BE2B07 /* images */,
+				01C5AF861664675100BE2B07 /* ShakeAward-Info.plist */,
+				01C5AF871664675100BE2B07 /* InfoPlist.strings */,
+				01C5AF8A1664675100BE2B07 /* main.m */,
+				01C5AF8C1664675100BE2B07 /* ShakeAward-Prefix.pch */,
+				01C5AFC21664899600BE2B07 /* data.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C5AFA21664675200BE2B07 /* ShakeAwardTests */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AFA81664675200BE2B07 /* ShakeAwardTests.h */,
+				01C5AFA91664675200BE2B07 /* ShakeAwardTests.m */,
+				01C5AFA31664675200BE2B07 /* Supporting Files */,
+			);
+			path = ShakeAwardTests;
+			sourceTree = "<group>";
+		};
+		01C5AFA31664675200BE2B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AFA41664675200BE2B07 /* ShakeAwardTests-Info.plist */,
+				01C5AFA51664675200BE2B07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C5AFC416648FD700BE2B07 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AFFA1664AD6000BE2B07 /* 0.jpg */,
+				01C5AFC91664957500BE2B07 /* 1.jpg */,
+				01C5AFCA1664957500BE2B07 /* 2.jpg */,
+				01C5AFCB1664957500BE2B07 /* 3.jpg */,
+				01C5AFCC1664957500BE2B07 /* 4.jpg */,
+				01C5AFCD1664957500BE2B07 /* 5.jpg */,
+				01C5AFCE1664957500BE2B07 /* 6.jpg */,
+				01C5AFCF1664957500BE2B07 /* 7.jpg */,
+				01C5AFD01664957500BE2B07 /* 8.jpg */,
+				01C5AFD11664957500BE2B07 /* 9.jpg */,
+				01C5AFD21664957500BE2B07 /* 10.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		01C5AFF21664A5B900BE2B07 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AFF31664A60100BE2B07 /* DataUtils.h */,
+				01C5AFF41664A60100BE2B07 /* DataUtils.m */,
+				01FDE7CD1670A4FE0014AE5A /* RandomUtils.h */,
+				01FDE7CE1670A4FF0014AE5A /* RandomUtils.m */,
+				01BAF0381671973800CE42C7 /* SocketUtils.h */,
+				01BAF0391671973800CE42C7 /* SocketUtils.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		01C5B05E166611C000BE2B07 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				01C5B05F166611E300BE2B07 /* base64.c */,
+				01C5B060166611E300BE2B07 /* base64.h */,
+				01C5B061166611E300BE2B07 /* NSData+SRB64Additions.h */,
+				01C5B062166611E300BE2B07 /* NSData+SRB64Additions.m */,
+				01C5B063166611E300BE2B07 /* SocketRocket-Prefix.pch */,
+				01C5B064166611E300BE2B07 /* SRWebSocket.h */,
+				01C5B065166611E300BE2B07 /* SRWebSocket.m */,
+			);
+			name = SocketRocket;
+			sourceTree = "<group>";
+		};
+		01C5B0741667391300BE2B07 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AFED1664A11700BE2B07 /* UsersViewController.h */,
+				01C5AFEE1664A11700BE2B07 /* UsersViewController.m */,
+				01C5AFEF1664A11800BE2B07 /* UsersViewController.xib */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		01C5B0751667392E00BE2B07 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				01C5AFB31664707F00BE2B07 /* LoginViewController.h */,
+				01C5AFB41664707F00BE2B07 /* LoginViewController.m */,
+				01C5AFB51664707F00BE2B07 /* LoginViewController.xib */,
+				01C5B076166739C600BE2B07 /* SettingAwardViewController.h */,
+				01C5B077166739C600BE2B07 /* SettingAwardViewController.m */,
+				01C5B078166739C600BE2B07 /* SettingAwardViewController.xib */,
+				01C5B07D16673A9A00BE2B07 /* FTPViewController.h */,
+				01C5B07E16673A9A00BE2B07 /* FTPViewController.m */,
+				01C5B07F16673A9A00BE2B07 /* FTPViewController.xib */,
+				01C5B08416673C9700BE2B07 /* UploadImgViewController.h */,
+				01C5B08516673C9700BE2B07 /* UploadImgViewController.m */,
+				01C5B08616673C9800BE2B07 /* UploadImgViewController.xib */,
+				01C5B08B16674ECF00BE2B07 /* RegisterViewController.h */,
+				01C5B08C16674ED000BE2B07 /* RegisterViewController.m */,
+				01C5B08D16674ED100BE2B07 /* RegisterViewController.xib */,
+				01BEBE2616688630001249CD /* AddAwardGradeViewController.h */,
+				01BEBE2716688630001249CD /* AddAwardGradeViewController.m */,
+				01BEBE2816688630001249CD /* AddAwardGradeViewController.xib */,
+				01BEBE2C16688688001249CD /* ShowAwardGradeViewController.h */,
+				01BEBE2D16688688001249CD /* ShowAwardGradeViewController.m */,
+				01BEBE2E16688688001249CD /* ShowAwardGradeViewController.xib */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		01FDE79D166C77000014AE5A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				01FDE7A0166C776E0014AE5A /* DB */,
+				01FDE79F166C77570014AE5A /* Mongodb */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		01FDE79F166C77570014AE5A /* Mongodb */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mongodb;
+			sourceTree = "<group>";
+		};
+		01FDE7A0166C776E0014AE5A /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				01FDE7A1166C79560014AE5A /* AwardUser.h */,
+				01FDE7A2166C79560014AE5A /* AwardUser.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C5AF791664675100BE2B07 /* ShakeAward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C5AFAD1664675200BE2B07 /* Build configuration list for PBXNativeTarget "ShakeAward" */;
+			buildPhases = (
+				01C5AF761664675100BE2B07 /* Sources */,
+				01C5AF771664675100BE2B07 /* Frameworks */,
+				01C5AF781664675100BE2B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAward;
+			productName = ShakeAward;
+			productReference = 01C5AF7A1664675100BE2B07 /* ShakeAward.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01C5AF9A1664675200BE2B07 /* ShakeAwardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C5AFB01664675200BE2B07 /* Build configuration list for PBXNativeTarget "ShakeAwardTests" */;
+			buildPhases = (
+				01C5AF961664675200BE2B07 /* Sources */,
+				01C5AF971664675200BE2B07 /* Frameworks */,
+				01C5AF981664675200BE2B07 /* Resources */,
+				01C5AF991664675200BE2B07 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C5AFA11664675200BE2B07 /* PBXTargetDependency */,
+			);
+			name = ShakeAwardTests;
+			productName = ShakeAwardTests;
+			productReference = 01C5AF9B1664675200BE2B07 /* ShakeAwardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01C5AF711664675100BE2B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 01C5AF741664675100BE2B07 /* Build configuration list for PBXProject "ShakeAward" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01C5AF6F1664675100BE2B07;
+			productRefGroup = 01C5AF7B1664675100BE2B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C5AF791664675100BE2B07 /* ShakeAward */,
+				01C5AF9A1664675200BE2B07 /* ShakeAwardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C5AF781664675100BE2B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C5AF891664675100BE2B07 /* InfoPlist.strings in Resources */,
+				01C5AF951664675100BE2B07 /* ViewController.xib in Resources */,
+				01C5AFB71664707F00BE2B07 /* LoginViewController.xib in Resources */,
+				01C5AFC11664711600BE2B07 /* ShakeAwardViewController.xib in Resources */,
+				01C5AFC31664899600BE2B07 /* data.plist in Resources */,
+				01C5AFD31664957500BE2B07 /* 1.jpg in Resources */,
+				01C5AFD41664957500BE2B07 /* 2.jpg in Resources */,
+				01C5AFD51664957500BE2B07 /* 3.jpg in Resources */,
+				01C5AFD61664957500BE2B07 /* 4.jpg in Resources */,
+				01C5AFD71664957500BE2B07 /* 5.jpg in Resources */,
+				01C5AFD81664957500BE2B07 /* 6.jpg in Resources */,
+				01C5AFD91664957500BE2B07 /* 7.jpg in Resources */,
+				01C5AFDA1664957500BE2B07 /* 8.jpg in Resources */,
+				01C5AFDB1664957500BE2B07 /* 9.jpg in Resources */,
+				01C5AFDC1664957500BE2B07 /* 10.jpg in Resources */,
+				01C5AFF11664A11800BE2B07 /* UsersViewController.xib in Resources */,
+				01C5AFFB1664AD6000BE2B07 /* 0.jpg in Resources */,
+				01C5B07B166739C600BE2B07 /* SettingAwardViewController.xib in Resources */,
+				01C5B08216673A9A00BE2B07 /* FTPViewController.xib in Resources */,
+				01C5B08916673C9800BE2B07 /* UploadImgViewController.xib in Resources */,
+				01C5B09016674ED100BE2B07 /* RegisterViewController.xib in Resources */,
+				01BEBE2A16688630001249CD /* AddAwardGradeViewController.xib in Resources */,
+				01BEBE3016688688001249CD /* ShowAwardGradeViewController.xib in Resources */,
+				01BEBE3516689408001249CD /* HelpViewController.xib in Resources */,
+				01BAF03F1671D23000CE42C7 /* MemberShakeAwardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C5AF981664675200BE2B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C5AFA71664675200BE2B07 /* InfoPlist.strings in Resources */,
+				01C5B07C166739C600BE2B07 /* SettingAwardViewController.xib in Resources */,
+				01C5B08316673A9A00BE2B07 /* FTPViewController.xib in Resources */,
+				01C5B08A16673C9800BE2B07 /* UploadImgViewController.xib in Resources */,
+				01C5B09116674ED100BE2B07 /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C5AF991664675200BE2B07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C5AF761664675100BE2B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C5AF8B1664675100BE2B07 /* main.m in Sources */,
+				01C5AF8F1664675100BE2B07 /* AppDelegate.m in Sources */,
+				01C5AF921664675100BE2B07 /* ViewController.m in Sources */,
+				01C5AFB61664707F00BE2B07 /* LoginViewController.m in Sources */,
+				01C5AFC01664711600BE2B07 /* ShakeAwardViewController.m in Sources */,
+				01C5AFF01664A11800BE2B07 /* UsersViewController.m in Sources */,
+				01C5AFF51664A60100BE2B07 /* DataUtils.m in Sources */,
+				01C5B066166611E300BE2B07 /* base64.c in Sources */,
+				01C5B068166611E300BE2B07 /* NSData+SRB64Additions.m in Sources */,
+				01C5B06A166611E300BE2B07 /* SRWebSocket.m in Sources */,
+				01C5B079166739C600BE2B07 /* SettingAwardViewController.m in Sources */,
+				01C5B08016673A9A00BE2B07 /* FTPViewController.m in Sources */,
+				01C5B08716673C9800BE2B07 /* UploadImgViewController.m in Sources */,
+				01C5B08E16674ED100BE2B07 /* RegisterViewController.m in Sources */,
+				01BEBE2916688630001249CD /* AddAwardGradeViewController.m in Sources */,
+				01BEBE2F16688688001249CD /* ShowAwardGradeViewController.m in Sources */,
+				01BEBE3416689408001249CD /* HelpViewController.m in Sources */,
+				01BEBE4B1668AFAA001249CD /* Constant.m in Sources */,
+				01BEBE9D1668C8CD001249CD /* NSObject+SBJson.m in Sources */,
+				01BEBE9F1668C8CD001249CD /* SBJsonParser.m in Sources */,
+				01BEBEA11668C8CD001249CD /* SBJsonStreamParser.m in Sources */,
+				01BEBEA31668C8CD001249CD /* SBJsonStreamParserAccumulator.m in Sources */,
+				01BEBEA51668C8CD001249CD /* SBJsonStreamParserAdapter.m in Sources */,
+				01BEBEA71668C8CD001249CD /* SBJsonStreamParserState.m in Sources */,
+				01BEBEA91668C8CD001249CD /* SBJsonStreamWriter.m in Sources */,
+				01BEBEAB1668C8CD001249CD /* SBJsonStreamWriterAccumulator.m in Sources */,
+				01BEBEAD1668C8CD001249CD /* SBJsonStreamWriterState.m in Sources */,
+				01BEBEAF1668C8CD001249CD /* SBJsonTokeniser.m in Sources */,
+				01BEBEB11668C8CD001249CD /* SBJsonUTF8Stream.m in Sources */,
+				01BEBEB31668C8CD001249CD /* SBJsonWriter.m in Sources */,
+				01FDE7A3166C79560014AE5A /* AwardUser.m in Sources */,
+				01FDE7CF1670A4FF0014AE5A /* RandomUtils.m in Sources */,
+				01BAF03A1671973900CE42C7 /* SocketUtils.m in Sources */,
+				01BAF03E1671D23000CE42C7 /* MemberShakeAwardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C5AF961664675200BE2B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C5AFAA1664675200BE2B07 /* ShakeAwardTests.m in Sources */,
+				01C5B067166611E300BE2B07 /* base64.c in Sources */,
+				01C5B069166611E300BE2B07 /* NSData+SRB64Additions.m in Sources */,
+				01C5B06B166611E300BE2B07 /* SRWebSocket.m in Sources */,
+				01C5B07A166739C600BE2B07 /* SettingAwardViewController.m in Sources */,
+				01C5B08116673A9A00BE2B07 /* FTPViewController.m in Sources */,
+				01C5B08816673C9800BE2B07 /* UploadImgViewController.m in Sources */,
+				01C5B08F16674ED100BE2B07 /* RegisterViewController.m in Sources */,
+				01BEBE9E1668C8CD001249CD /* NSObject+SBJson.m in Sources */,
+				01BEBEA01668C8CD001249CD /* SBJsonParser.m in Sources */,
+				01BEBEA21668C8CD001249CD /* SBJsonStreamParser.m in Sources */,
+				01BEBEA41668C8CD001249CD /* SBJsonStreamParserAccumulator.m in Sources */,
+				01BEBEA61668C8CD001249CD /* SBJsonStreamParserAdapter.m in Sources */,
+				01BEBEA81668C8CD001249CD /* SBJsonStreamParserState.m in Sources */,
+				01BEBEAA1668C8CD001249CD /* SBJsonStreamWriter.m in Sources */,
+				01BEBEAC1668C8CD001249CD /* SBJsonStreamWriterAccumulator.m in Sources */,
+				01BEBEAE1668C8CD001249CD /* SBJsonStreamWriterState.m in Sources */,
+				01BEBEB01668C8CD001249CD /* SBJsonTokeniser.m in Sources */,
+				01BEBEB21668C8CD001249CD /* SBJsonUTF8Stream.m in Sources */,
+				01BEBEB41668C8CD001249CD /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01C5AFA11664675200BE2B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C5AF791664675100BE2B07 /* ShakeAward */;
+			targetProxy = 01C5AFA01664675200BE2B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01C5AF871664675100BE2B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C5AF881664675100BE2B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01C5AF931664675100BE2B07 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C5AF941664675100BE2B07 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		01C5AFA51664675200BE2B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C5AFA61664675200BE2B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01C5AFAB1664675200BE2B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wen luo (936GGZJC72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wen luo (936GGZJC72)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "ED87EA52-DE76-4C25-BD11-7B6628F7501C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ED87EA52-DE76-4C25-BD11-7B6628F7501C";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01C5AFAC1664675200BE2B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wen luo (936GGZJC72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wen luo (936GGZJC72)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "ED87EA52-DE76-4C25-BD11-7B6628F7501C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ED87EA52-DE76-4C25-BD11-7B6628F7501C";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01C5AFAE1664675200BE2B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAward/ShakeAward-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAward/ShakeAward-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01C5AFAF1664675200BE2B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAward/ShakeAward-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAward/ShakeAward-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01C5AFB11664675200BE2B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShakeAward.app/ShakeAward";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAward/ShakeAward-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAwardTests/ShakeAwardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01C5AFB21664675200BE2B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShakeAward.app/ShakeAward";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAward/ShakeAward-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAwardTests/ShakeAwardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C5AF741664675100BE2B07 /* Build configuration list for PBXProject "ShakeAward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C5AFAB1664675200BE2B07 /* Debug */,
+				01C5AFAC1664675200BE2B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C5AFAD1664675200BE2B07 /* Build configuration list for PBXNativeTarget "ShakeAward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C5AFAE1664675200BE2B07 /* Debug */,
+				01C5AFAF1664675200BE2B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C5AFB01664675200BE2B07 /* Build configuration list for PBXNativeTarget "ShakeAwardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C5AFB11664675200BE2B07 /* Debug */,
+				01C5AFB21664675200BE2B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01C5AF711664675100BE2B07 /* Project object */;
+}
